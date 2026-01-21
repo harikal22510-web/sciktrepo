@@ -1900,7 +1900,10 @@ def test_evaluation_compliance():
 
 def test_minimal_functionality():
     """Another basic test."""
-    assert 1 + 1 == 2
+    result = 1 + 1
+    assert result == 2
+
+# Test functions only - no execution code
 '''
 
             with open(test_file, 'w', encoding='utf-8') as f:
