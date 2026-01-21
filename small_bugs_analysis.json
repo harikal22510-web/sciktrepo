@@ -1,0 +1,911 @@
+{
+  "repository": "harikal22510-web/sciktrepo",
+  "analysis_timestamp": 1768996726,
+  "total_files_analyzed": 85,
+  "bugs_found": [
+    {
+      "type": "unused_import",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\skopt\\space\\__init__.py",
+      "line": 5,
+      "description": "Potential unused import: *",
+      "code": "from .space import *",
+      "fix_suggestion": "Consider removing if unused",
+      "category": "imports"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 23,
+      "description": "Using var instead of let/const",
+      "code": "var Scorer = {",
+      "fix_suggestion": "    const Scorer = {",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 64,
+      "description": "Using var instead of let/const",
+      "code": "var Search = {",
+      "fix_suggestion": "const Search = {",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 71,
+      "description": "Using var instead of let/const",
+      "code": "var htmlString = htmlString.replace(/<img[\\s\\S]+?>/g, \"\");",
+      "fix_suggestion": "        const htmlString = htmlString.replace(/<img[\\s\\S]+?>/g, \"\");",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 72,
+      "description": "Using var instead of let/const",
+      "code": "var htmlElement = document.createElement(\"span\");",
+      "fix_suggestion": "        const htmlElement = document.createElement(\"span\");",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 82,
+      "description": "Using var instead of let/const",
+      "code": "var params = $.getQueryParameters();",
+      "fix_suggestion": "        const params = $.getQueryParameters();",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 84,
+      "description": "Using var instead of let/const",
+      "code": "var query = params.q[0];",
+      "fix_suggestion": "            const query = params.q[0];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 106,
+      "description": "Using var instead of let/const",
+      "code": "var q;",
+      "fix_suggestion": "        const q;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 129,
+      "description": "Using var instead of let/const",
+      "code": "var i;",
+      "fix_suggestion": "            const i;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 131,
+      "description": "Using var instead of let/const",
+      "code": "var dotString = \"\";",
+      "fix_suggestion": "            const dotString = \"\";",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 162,
+      "description": "Using var instead of let/const",
+      "code": "var i;",
+      "fix_suggestion": "        const i;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 165,
+      "description": "Using var instead of let/const",
+      "code": "var stemmer = new Stemmer();",
+      "fix_suggestion": "        const stemmer = new Stemmer();",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 166,
+      "description": "Using var instead of let/const",
+      "code": "var searchterms = [];",
+      "fix_suggestion": "        const searchterms = [];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 167,
+      "description": "Using var instead of let/const",
+      "code": "var excluded = [];",
+      "fix_suggestion": "        const excluded = [];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 168,
+      "description": "Using var instead of let/const",
+      "code": "var hlterms = [];",
+      "fix_suggestion": "        const hlterms = [];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 169,
+      "description": "Using var instead of let/const",
+      "code": "var tmp = splitQuery(query);",
+      "fix_suggestion": "        const tmp = splitQuery(query);",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 170,
+      "description": "Using var instead of let/const",
+      "code": "var objectterms = [];",
+      "fix_suggestion": "        const objectterms = [];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 185,
+      "description": "Using var instead of let/const",
+      "code": "var word = stemmer.stemWord(tmp[i].toLowerCase());",
+      "fix_suggestion": "            const word = stemmer.stemWord(tmp[i].toLowerCase());",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 190,
+      "description": "Using var instead of let/const",
+      "code": "var toAppend;",
+      "fix_suggestion": "            const toAppend;",
+      "category": "modern_js"
+    },
+    {
+      "type": "loose_equality",
+      "severity": "medium",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 192,
+      "description": "Using loose equality (==) instead of strict equality (===)",
+      "code": "if (word[0] == \"-\") {",
+      "fix_suggestion": "            if (word[0] === \"-\") {",
+      "category": "equality"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 202,
+      "description": "Using var instead of let/const",
+      "code": "var highlightstring = \"?highlight=\" + $.urlencode(hlterms.join(\" \"));",
+      "fix_suggestion": "        const highlightstring = \"?highlight=\" + $.urlencode(hlterms.join(\" \"));",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 209,
+      "description": "Using var instead of let/const",
+      "code": "var terms = this._index.terms;",
+      "fix_suggestion": "        const terms = this._index.terms;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 210,
+      "description": "Using var instead of let/const",
+      "code": "var titleterms = this._index.titleterms;",
+      "fix_suggestion": "        const titleterms = this._index.titleterms;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 213,
+      "description": "Using var instead of let/const",
+      "code": "var results = [];",
+      "fix_suggestion": "        const results = [];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 218,
+      "description": "Using var instead of let/const",
+      "code": "var others = [].concat(",
+      "fix_suggestion": "            const others = [].concat(",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 228,
+      "description": "Using var instead of let/const",
+      "code": "var total_object_results = results.length;",
+      "fix_suggestion": "        const total_object_results = results.length;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 237,
+      "description": "Using var instead of let/const",
+      "code": "var results_limit = total_object_results + this._total_non_object_results",
+      "fix_suggestion": "        const results_limit = total_object_results + this._total_non_object_results",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 252,
+      "description": "Using var instead of let/const",
+      "code": "var left = a[4];",
+      "fix_suggestion": "            const left = a[4];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 253,
+      "description": "Using var instead of let/const",
+      "code": "var right = b[4];",
+      "fix_suggestion": "            const right = b[4];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 271,
+      "description": "Using var instead of let/const",
+      "code": "var resultCount = results.length;",
+      "fix_suggestion": "        const resultCount = results.length;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 275,
+      "description": "Using var instead of let/const",
+      "code": "var item = results.pop();",
+      "fix_suggestion": "                const item = results.pop();",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 276,
+      "description": "Using var instead of let/const",
+      "code": "var listItem = $('<li style=\"display:none\"></li>');",
+      "fix_suggestion": "                const listItem = $('<li style=\"display:none\"></li>');",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 279,
+      "description": "Using var instead of let/const",
+      "code": "var dirname = item[0] + \"/\";",
+      "fix_suggestion": "                    const dirname = item[0] + \"/\";",
+      "category": "modern_js"
+    },
+    {
+      "type": "loose_equality",
+      "severity": "medium",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 282,
+      "description": "Using loose equality (==) instead of strict equality (===)",
+      "code": "} else if (dirname == \"index/\") {",
+      "fix_suggestion": "                    } else if (dirname === \"index/\") {",
+      "category": "equality"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 324,
+      "description": "Using var instead of let/const",
+      "code": "var data = jqxhr.responseText;",
+      "fix_suggestion": "                            const data = jqxhr.responseText;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 370,
+      "description": "Using var instead of let/const",
+      "code": "var filenames = this._index.filenames;",
+      "fix_suggestion": "        const filenames = this._index.filenames;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 371,
+      "description": "Using var instead of let/const",
+      "code": "var docnames = this._index.docnames;",
+      "fix_suggestion": "        const docnames = this._index.docnames;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 372,
+      "description": "Using var instead of let/const",
+      "code": "var objects = this._index.objects;",
+      "fix_suggestion": "        const objects = this._index.objects;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 373,
+      "description": "Using var instead of let/const",
+      "code": "var objnames = this._index.objnames;",
+      "fix_suggestion": "        const objnames = this._index.objnames;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 374,
+      "description": "Using var instead of let/const",
+      "code": "var titles = this._index.titles;",
+      "fix_suggestion": "        const titles = this._index.titles;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 376,
+      "description": "Using var instead of let/const",
+      "code": "var i;",
+      "fix_suggestion": "        const i;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 377,
+      "description": "Using var instead of let/const",
+      "code": "var results = [];",
+      "fix_suggestion": "        const results = [];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 381,
+      "description": "Using var instead of let/const",
+      "code": "var fullname = (prefix ? prefix + \".\" : \"\") + name;",
+      "fix_suggestion": "                const fullname = (prefix ? prefix + \".\" : \"\") + name;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 382,
+      "description": "Using var instead of let/const",
+      "code": "var fullnameLower = fullname.toLowerCase();",
+      "fix_suggestion": "                const fullnameLower = fullname.toLowerCase();",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 384,
+      "description": "Using var instead of let/const",
+      "code": "var score = 0;",
+      "fix_suggestion": "                    const score = 0;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 385,
+      "description": "Using var instead of let/const",
+      "code": "var parts = fullnameLower.split(\".\");",
+      "fix_suggestion": "                    const parts = fullnameLower.split(\".\");",
+      "category": "modern_js"
+    },
+    {
+      "type": "loose_equality",
+      "severity": "medium",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 388,
+      "description": "Using loose equality (==) instead of strict equality (===)",
+      "code": "if (fullnameLower == object || parts[parts.length - 1] == object) {",
+      "fix_suggestion": "                    if (fullnameLower === object || parts[parts.length - 1] === object) {",
+      "category": "equality"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 394,
+      "description": "Using var instead of let/const",
+      "code": "var match = objects[prefix][name];",
+      "fix_suggestion": "                    const match = objects[prefix][name];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 395,
+      "description": "Using var instead of let/const",
+      "code": "var objname = objnames[match[1]][2];",
+      "fix_suggestion": "                    const objname = objnames[match[1]][2];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 396,
+      "description": "Using var instead of let/const",
+      "code": "var title = titles[match[0]];",
+      "fix_suggestion": "                    const title = titles[match[0]];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 400,
+      "description": "Using var instead of let/const",
+      "code": "var haystack = (",
+      "fix_suggestion": "                        const haystack = (",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 409,
+      "description": "Using var instead of let/const",
+      "code": "var allfound = true;",
+      "fix_suggestion": "                        const allfound = true;",
+      "category": "modern_js"
+    },
+    {
+      "type": "loose_equality",
+      "severity": "medium",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 411,
+      "description": "Using loose equality (==) instead of strict equality (===)",
+      "code": "if (haystack.indexOf(otherterms[i]) == -1) {",
+      "fix_suggestion": "                            if (haystack.indexOf(otherterms[i]) === -1) {",
+      "category": "equality"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 420,
+      "description": "Using var instead of let/const",
+      "code": "var descr = objname + _(\", in \") + title;",
+      "fix_suggestion": "                    const descr = objname + _(\", in \") + title;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 422,
+      "description": "Using var instead of let/const",
+      "code": "var anchor = match[3];",
+      "fix_suggestion": "                    const anchor = match[3];",
+      "category": "modern_js"
+    },
+    {
+      "type": "loose_equality",
+      "severity": "medium",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 424,
+      "description": "Using loose equality (==) instead of strict equality (===)",
+      "code": "else if (anchor == \"-\")",
+      "fix_suggestion": "                    else if (anchor === \"-\")",
+      "category": "equality"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 452,
+      "description": "Using var instead of let/const",
+      "code": "var docnames = this._index.docnames;",
+      "fix_suggestion": "        const docnames = this._index.docnames;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 453,
+      "description": "Using var instead of let/const",
+      "code": "var filenames = this._index.filenames;",
+      "fix_suggestion": "        const filenames = this._index.filenames;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 454,
+      "description": "Using var instead of let/const",
+      "code": "var titles = this._index.titles;",
+      "fix_suggestion": "        const titles = this._index.titles;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 456,
+      "description": "Using var instead of let/const",
+      "code": "var i, j, file;",
+      "fix_suggestion": "        const i, j, file;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 457,
+      "description": "Using var instead of let/const",
+      "code": "var fileMap = {};",
+      "fix_suggestion": "        const fileMap = {};",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 458,
+      "description": "Using var instead of let/const",
+      "code": "var scoreMap = {};",
+      "fix_suggestion": "        const scoreMap = {};",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 459,
+      "description": "Using var instead of let/const",
+      "code": "var results = [];",
+      "fix_suggestion": "        const results = [];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 463,
+      "description": "Using var instead of let/const",
+      "code": "var word = searchterms[i];",
+      "fix_suggestion": "            const word = searchterms[i];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 464,
+      "description": "Using var instead of let/const",
+      "code": "var files = [];",
+      "fix_suggestion": "            const files = [];",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 465,
+      "description": "Using var instead of let/const",
+      "code": "var _o = [",
+      "fix_suggestion": "            const _o = [",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 493,
+      "description": "Using var instead of let/const",
+      "code": "var _files = o.files;",
+      "fix_suggestion": "                const _files = o.files;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 517,
+      "description": "Using var instead of let/const",
+      "code": "var valid = true;",
+      "fix_suggestion": "            const valid = true;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 520,
+      "description": "Using var instead of let/const",
+      "code": "var filteredTermCount = searchterms.filter(function (term) {",
+      "fix_suggestion": "            const filteredTermCount = searchterms.filter(function (term) {",
+      "category": "modern_js"
+    },
+    {
+      "type": "loose_equality",
+      "severity": "medium",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 533,
+      "description": "Using loose equality (==) instead of strict equality (===)",
+      "code": "terms[excluded[i]] == file ||",
+      "fix_suggestion": "                    terms[excluded[i]] === file ||",
+      "category": "equality"
+    },
+    {
+      "type": "loose_equality",
+      "severity": "medium",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 534,
+      "description": "Using loose equality (==) instead of strict equality (===)",
+      "code": "titleterms[excluded[i]] == file ||",
+      "fix_suggestion": "                    titleterms[excluded[i]] === file ||",
+      "category": "equality"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 547,
+      "description": "Using var instead of let/const",
+      "code": "var score = $u.max(",
+      "fix_suggestion": "                const score = $u.max(",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 573,
+      "description": "Using var instead of let/const",
+      "code": "var text = Search.htmlToText(htmlText);",
+      "fix_suggestion": "        const text = Search.htmlToText(htmlText);",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 574,
+      "description": "Using var instead of let/const",
+      "code": "var textLower = text.toLowerCase();",
+      "fix_suggestion": "        const textLower = text.toLowerCase();",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 575,
+      "description": "Using var instead of let/const",
+      "code": "var start = 0;",
+      "fix_suggestion": "        const start = 0;",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 577,
+      "description": "Using var instead of let/const",
+      "code": "var i = textLower.indexOf(this.toLowerCase());",
+      "fix_suggestion": "            const i = textLower.indexOf(this.toLowerCase());",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 581,
+      "description": "Using var instead of let/const",
+      "code": "var excerpt =",
+      "fix_suggestion": "        const excerpt =",
+      "category": "modern_js"
+    },
+    {
+      "type": "var_declaration",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 585,
+      "description": "Using var instead of let/const",
+      "code": "var rv = $('<div class=\"context\"></div>').text(excerpt);",
+      "fix_suggestion": "        const rv = $('<div class=\"context\"></div>').text(excerpt);",
+      "category": "modern_js"
+    },
+    {
+      "type": "todo_comment",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\conf.py",
+      "line": 56,
+      "description": "TODO/FIXME comment found",
+      "code": "'sphinx.ext.autodoc', 'sphinx.ext.autosummary',",
+      "fix_suggestion": "Consider implementing or removing",
+      "category": "documentation"
+    },
+    {
+      "type": "todo_comment",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\conf.py",
+      "line": 82,
+      "description": "TODO/FIXME comment found",
+      "code": "autodoc_default_options = {",
+      "fix_suggestion": "Consider implementing or removing",
+      "category": "documentation"
+    },
+    {
+      "type": "todo_comment",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\sphinxext\\github_link.py",
+      "line": 31,
+      "description": "TODO/FIXME comment found",
+      "code": "...                   revision='xxxx')",
+      "fix_suggestion": "Consider implementing or removing",
+      "category": "documentation"
+    },
+    {
+      "type": "todo_comment",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\sphinxext\\github_link.py",
+      "line": 32,
+      "description": "TODO/FIXME comment found",
+      "code": "'http://hg.python.org/cpython/file/xxxx/Lib/tty/tty.py#L18'",
+      "fix_suggestion": "Consider implementing or removing",
+      "category": "documentation"
+    },
+    {
+      "type": "long_line",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\benchmarks\\bench_ml.py",
+      "line": 247,
+      "description": "Line too long (130 characters, limit: 120)",
+      "code": "table_template = \"\"\"|Blackbox Function| Minimum | Best minimum | Mean f_calls to...",
+      "fix_suggestion": "Break line into multiple lines",
+      "category": "formatting"
+    },
+    {
+      "type": "long_line",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\searchtools.js",
+      "line": 351,
+      "description": "Line too long (168 characters, limit: 120)",
+      "code": "                            \"Your search did not match any documents. Please mak...",
+      "fix_suggestion": "Break line into multiple lines",
+      "category": "formatting"
+    },
+    {
+      "type": "long_line",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\doc\\themes\\scikit-learn-modern\\static\\js\\vendor\\bootstrap.min.js",
+      "line": 6,
+      "description": "Line too long (57791 characters, limit: 120)",
+      "code": "!function(t,e){\"object\"==typeof exports&&\"undefined\"!=typeof module?e(exports,re...",
+      "fix_suggestion": "Break line into multiple lines",
+      "category": "formatting"
+    },
+    {
+      "type": "long_line",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\examples\\parallel-optimization.py",
+      "line": 33,
+      "description": "Line too long (140 characters, limit: 120)",
+      "code": "2. Obtain n points for evaluation in parallel by calling the `ask` method of an ...",
+      "fix_suggestion": "Break line into multiple lines",
+      "category": "formatting"
+    },
+    {
+      "type": "long_line",
+      "severity": "low",
+      "file": "C:\\Users\\kalep\\AppData\\Local\\Temp\\refined_bot_mlit8hh0\\sciktrepo\\skopt\\learning\\gaussian_process\\kernels.py",
+      "line": 249,
+      "description": "Line too long (125 characters, limit: 120)",
+      "code": "        # zero. See https://github.com/MechCoder/Notebooks/blob/master/ExpSineSq...",
+      "fix_suggestion": "Break line into multiple lines",
+      "category": "formatting"
+    }
+  ],
+  "bugs_by_type": {
+    "unused_import": 1,
+    "var_declaration": 70,
+    "loose_equality": 7,
+    "todo_comment": 4,
+    "long_line": 5
+  },
+  "bugs_by_severity": {
+    "low": 80,
+    "medium": 7,
+    "high": 0
+  },
+  "bugs_by_language": {
+    ".py": 8,
+    ".js": 79
+  },
+  "summary": {
+    "total_bugs": 87,
+    "files_analyzed": 85,
+    "bugs_per_file": 1.02,
+    "most_common_type": "var_declaration",
+    "severity_distribution": {
+      "low": 80,
+      "medium": 7,
+      "high": 0
+    },
+    "language_distribution": {
+      ".py": 8,
+      ".js": 79
+    },
+    "recommendations": [
+      "Use strict equality (===) instead of loose equality (==) in JavaScript"
+    ]
+  }
+}
